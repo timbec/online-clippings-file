@@ -8,8 +8,11 @@
   <body>
     <h3>All Links</h3>
     <ul>
+      <li>
+        <a href="/links/new">Add New Link</a>
+      </li>
       <% for (let link of links) {%> <% console.log('Links: ' + link.title); %>
-      <li><%= link.title %></li>
+      <li><a href="/links/<%= link.id %>"><%= link.title %></a></li>
       <li><%= link.url %></li>
       <li><%= link.description %></li>
       <% } %>
