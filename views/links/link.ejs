@@ -6,9 +6,24 @@
     <title>Link Page</title>
   </head>
   <body>
+    <%= link %>
     <h1><%= link.title %></h1>
-    <a href="<%= link.url %>"><%= link.url %></a>
+    <a href="<%= link.link %>"><%= link.link %></a>
 
-    <a href="/links">All Links</a>
+    <p>
+      <%= link.description %>
+    </p>
+
+    <footer>
+      <p><a href="/links/<%=link._id%>/edit">Edit Link</a></p>
+      <p>
+        <form action="/links/<%=link._id%>?_method=DELETE" method="POST">
+        <button>DELETE</button>
+        </form>
+      </p>
+      <p><a href="/links/">All Links</a></p>
+
+      
+    </footer>
   </body>
 </html>
