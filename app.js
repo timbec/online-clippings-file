@@ -5,6 +5,8 @@ const Link = require("./models/Link");
 
 const methodOverride = require("method-override");
 
+const morgan = require("morgan");
+
 mongoose
   .connect("mongodb://localhost/linkrApp", { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true })
   .then(() => {
@@ -28,6 +30,8 @@ app.set("views", path.join(__dirname, "views"));
 
 app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride("_method"));
+
+app.use(morgan("common"));
 
 app.get("/", (req, res) => {
   res.render("home");
