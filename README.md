@@ -30,3 +30,14 @@ Various topics:
 - they can be categorized and tagged to be available in each project, within the entire work space, or the entire site.
 
 - Different categories and even tags can be made available as an API. For examples, recipes, queryable by an API, for easy search.
+
+## Phase II: Dev ToolBox
+
+- This might eventually be a separate app but since, for the time being this is for personal use.
+
+- A second component is an explicit dev toolbox, with notes, and a coding repository. Like the links, the code repository is 1) searchable, categorized (presumably by language), and tags.
+- The code would also include notes, in a setup similar to Jupyter Notebooks, downloadable as a file, but also stored in a database, and convertable as an API.
+
+## Phase III
+
+- my wife is a librarian, and she told me she and her colleagues need a system at work to share links, sometimes person to person, sometimes as a common pool. Evernote has the ability to share notes, so I asked her to try Evernote first then tell me what it doesn't do that could be added to a custom app.
