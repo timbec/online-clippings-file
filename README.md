@@ -12,7 +12,10 @@ At the moment, I keep dozens (or more) of text files in various dropbox folders.
 
 Various topics:
 
-- research
+## General Interest:
+
+- News
+
 - things like recipes I want on file and want to be able to categorize and find easily, by category, sub-categories, or tags.
 - I would like to be able to create this as an API, to be access on different sites.
 
